@@ -6,11 +6,13 @@ import App from './containers/App';
 // libs
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+// style
+import GlobalStyles from './globalStyles';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <Fragment>
+    <GlobalStyles />
     <App />
   </Fragment>, 
   document.getElementById('root')

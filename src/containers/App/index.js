@@ -1,9 +1,15 @@
 import React, { Component } from 'react';
 
+// components
+import Header from '../../components/layout/header';
+import { Container } from 'reactstrap';
+
 class App extends Component {
   render(){
     return (
-      <div>App component</div>
+      <Container>
+        <Header />
+      </Container>
     )
   }
 }
